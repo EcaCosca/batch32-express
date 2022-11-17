@@ -8,5 +8,5 @@ app.put('/', (req, res) => {res.send('Hello this is a put REQUEST!')})
 app.delete('/', (req, res) => {res.send('Hello this is a delete REQUEST!')})
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Example app listening on http://localhost:${port}`)
 })
